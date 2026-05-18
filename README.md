@@ -52,9 +52,14 @@ npm test
 npm run lint
 ```
 <<<<<<< HEAD
+## Feature: API Endpoints
+This branch adds POST /api/data endpoint and input validation.
+=======
+<<<<<<< HEAD
 ## Feature: User Authentication
 This branch adds login validation and UI feedback.
 =======
 ## Feature: API Endpoints
 This branch adds POST /api/data endpoint and input validation.
 >>>>>>> feature/api-endpoints
+>>>>>>> 2de9e8fada85e1b07bd4d491fe2510a3bc81c211
