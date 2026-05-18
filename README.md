@@ -51,3 +51,5 @@ To intentionally create a merge conflict, edit the same lines in one of:
 npm test
 npm run lint
 ```
+## Feature: API Endpoints
+This branch adds POST /api/data endpoint and input validation.
