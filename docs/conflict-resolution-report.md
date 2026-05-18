@@ -1,15 +1,15 @@
 # Conflict Resolution Report (~300 words)
 
 ## 1) Conflict Scenario
-- **File conflicted:** README.md  
-- **Branches involved:** feature/user-authentication and feature/api-endpoints  
-- **Changes in each branch:**  
-  - `feature/user-authentication` added a section describing login validation, UI feedback, show/hide password, and form clearing.  
+- **File conflicted:** README.md
+- **Branches involved:** feature/user-authentication and feature/api-endpoints
+- **Changes in each branch:**
+  - `feature/user-authentication` added a section describing login validation, UI feedback, show/hide password, and form clearing.
   - `feature/api-endpoints` added a section describing the POST `/api/data` endpoint and input validation.
 
 ## 2) What You Saw
-- When merging `feature/api-endpoints` into `feature/user-authentication`, Git reported a **merge conflict**.  
-- In `README.md`, conflict markers appeared:  
+- When merging `feature/api-endpoints` into `feature/user-authentication`, Git reported a **merge conflict**.
+- In `README.md`, conflict markers appeared:
 
 ```text
 <<<<<<< HEAD
