@@ -13,3 +13,12 @@ form.addEventListener('submit', (e)=>{
   message.textContent='Logging in...';
   message.style.color='blue';
 });
+const togglePassword = document.getElementById('togglePassword');
+const passwordField = document.getElementById('password');
+if(togglePassword){
+  togglePassword.addEventListener('click', ()=>{
+    const type = passwordField.type==='password'?'text':'password';
+    passwordField.type=type;
+    togglePassword.textContent=type==='password'?'Show':'Hide';
+  });
+});
