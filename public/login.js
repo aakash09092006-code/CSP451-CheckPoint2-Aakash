@@ -22,3 +22,4 @@ if(togglePassword){
     togglePassword.textContent=type==='password'?'Show':'Hide';
   });
 });
+form.reset();
