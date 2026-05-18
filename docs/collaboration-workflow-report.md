@@ -1,22 +1,33 @@
 # Collaboration Workflow Report
 
 ## 1) Issues Created
-List the 3 issues you created (one per feature) and what each issue requested.
+- **#1 Feature: User Authentication** — Requested login validation, UI feedback, show/hide password toggle, and clearing form after success.  
+- **#2 Feature: Database Connection** — Requested `connect()` and `query()` functions for DB module.  
+- **#3 Feature: API Endpoints** — Requested POST `/api/data` endpoint with input validation.
 
 ## 2) PR Summary (3 PRs)
-For each PR:
-- PR title
-- linked issue
-- key changes
-- screenshots included? (Y/N)
+
+**PR #1 — Feature: User Authentication**  
+- Linked issue: #1  
+- Key changes: 3 commits — login validation & UI feedback, show/hide password toggle, clear form after login  
+- Screenshots included? Yes  
+
+**PR #2 — Feature: Database Connection**  
+- Linked issue: #2  
+- Key changes: 3 commits — implement `connect()`, implement `query()`, export module  
+- Screenshots included? Yes  
+
+**PR #3 — Feature: API Endpoints**  
+- Linked issue: #3  
+- Key changes: 3 commits — split api.js into modules, add POST `/api/data` endpoint, add input validation  
+- Screenshots included? Yes  
 
 ## 3) Self-Review Evidence
-GitHub does not allow you to formally Approve or Request changes on your own PR,
-so all reviews on this checkpoint are comment-based. Explain:
-- at least 2 self-review comments per PR (what was said and why)
-- which PR had a critical self-review comment that required a follow-up commit,
-  and how you addressed it
-- how you ensured quality before merging (CI status checks, manual testing, etc.)
+- Self-review was done on **PR #3 — Feature: API Endpoints**  
+- Comment left: “Please check input validation for edge cases”  
+- Follow-up commit: `fix(api): address self-review comment`  
+- Quality ensured by: running `npm test`, `npm run lint`, `npm run format:check` on main branch before merge  
 
 ## 4) Merge Strategy
-Confirm you used **Squash and merge** and explain one benefit (clean history, easier rollback, etc.).
+- **Squash and merge** was used for all three PRs  
+- Benefit: Keeps commit history clean and linear, making it easier to rollback or track changes if needed
