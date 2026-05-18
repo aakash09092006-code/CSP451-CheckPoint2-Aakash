@@ -51,3 +51,10 @@ To intentionally create a merge conflict, edit the same lines in one of:
 npm test
 npm run lint
 ```
+<<<<<<< HEAD
+## Feature: User Authentication
+This branch adds login validation and UI feedback.
+=======
+## Feature: API Endpoints
+This branch adds POST /api/data endpoint and input validation.
+>>>>>>> feature/api-endpoints
